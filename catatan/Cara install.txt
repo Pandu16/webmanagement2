@@ -1,0 +1,7 @@
+1. Extract rar di htdocs
+2. Import sql melalui phpmyadmin
+	- Buat database baru dengan nama "webmanagement"
+	- klik database webmanagement
+	- klik menu import
+	- browse, pilih file dalam folder sql
+	- klik go

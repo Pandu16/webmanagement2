@@ -1,0 +1,63 @@
+Penjelasan Program
+1. Login
+	- Pengawas
+		- nik = 5
+		- password = pengawas
+	- Operasional
+		- nik = 2
+		- password = operasional
+	- Manajer
+		- nik = 3
+		- password = manajer
+2. Form Registrasi
+	- Harus terdaftar sebagai karyawan (bisa ditambahkan oleh bagian operasional di menu data karyawan > tambah karyawan)
+	- Tidak akan bisa registrasi jika tidak terdaftar sebagai karyawan
+3. Profil
+	- Semua akun dapat mengedit profil dan password dengan klik icon di kanan atas -> profil
+
+4. Menu Pengawas
+	- Dashboard
+	- Input barang pelanggan (pemasangan / perbaikan jaringan)
+	- Permintaan Barang
+	- stok
+		- lihat stok (melihat stok pengawas tersebut)
+		- stok masuk (melihat stok masuk untuk pengawas)
+		- stok keluar (melihat stok keluar untuk pengawas)
+
+5. Menu Operasional
+	- Dashboard
+	- Master
+		- Data Karyawan (melihat data karyawan)
+			- Tambah Karyawan (hanya menambah karyawan, belum termasuk akun, jadi akun harus di regis pada menu registrasi)
+			- Tambah User (Menambah data karyawan sekaligus User)
+			- Edit Karyawan (Hanya untuk mengubah nama dan level Karyawan)
+			- Hapus Karyawan (Menghapus data karyawan)
+		- Lihat stok barang
+			- Tambah barang (Untuk menambah barang baru)
+		- Pembelian barang (yang sudah ada)
+			- beli barang (Mengajukan pembelian barang ke manajer)
+			- tabel
+				- ditolak = pesanan di tolak oleh manajer, tombol hapus untuk menghapus data
+				- sedang menunggu persetujuan manajer = sedang menunggu acc dari manajer
+				- disetujui = jika klik lanjutkan, maka akan mengubah status menjadi sedang dipesan
+				- sedang dipesan = jika klik selesai, maka pembelian telah selesai, stok akan bertambah dan hasilnya di laporan pembelian
+				
+		- Permintaan item baru
+			- Tabel pertama akan muncul jika bagian pengawas mengajukan pembelian barang baru, akan ada tombol setuju dan tolak
+			- Tabel kedua, jika sudah ditekan tombol setuju dan melakukan pengisian form, maka tabel ini akan terisi, sama seperti tabel di pembelian barang
+		- Permintaan barang
+			- tabel permintaan barang akan ada setelah pengawas melakukan permintaan barang
+			- acc = permintaan di acc dan stok akan masuk ke pengawas (jika stok kurang maka tidak bisa di acc)
+			- tolak = permintaan ditolak
+	- Laporan
+		- Stok Masuk = Laporan stok masuk dari pembelian
+		- Stok Keluar = Laporan stok keluar dari pemasangan / perbaikan
+		- Laporan Permintaan = Laporan permintaan yang telah diterima dari pengawas
+		- Laporan pembelian = Laporan pembelian yang telah selesai
+
+6. Menu Manajer
+	- Dashboard
+	- Konfirmasi Pembelian
+		- Acc / Tolak Pembelian
+	- Laporan (Sama seperti laporan operasional)
+	
